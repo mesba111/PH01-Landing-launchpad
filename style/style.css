@@ -1,3 +1,19 @@
+/* shared */
+.btn{
+    text-align: center;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 12px 36px;
+}
+.btn:hover{
+    background-color: rgb(8, 90, 90);
+}
+ /* header section */
 .nav-title{
     font-family: sans-serif ;
     font-weight: bold;
@@ -14,19 +30,7 @@ nav{
     margin-left: 150px;
     margin-right: 150px;
 }
-.btn{
-    text-align: center;
-    padding: 12px 36px;
-    background-color: #4E47FF;
-    color: #FFFFFF;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    font-size: 15px;
-}
-.btn:hover{
-    background-color: rgb(8, 90, 90);
-}
+
 
 .head-main{
     text-align: center;
@@ -49,3 +53,83 @@ nav{
     background-position: center;
     padding-bottom: 100px;
 }
+
+/* section action */
+.section-action{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between; 
+    margin: 116px 150px 0 150px;
+    gap: 220px;
+}
+.action-img{
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+
+}
+.action-discription{
+    color: #757575;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    font-size: 24px;
+    height: 60px;
+    width: 517px;
+
+}
+.section-action-left{
+    height: 328px;
+    text-align:left
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 517px;
+}
+
+/* productive section start */
+.productive-section{
+    margin-top: 116px;
+    margin-left: 141px;
+    margin-right: 159px;
+    padding: 50px 142px;
+    background-color: rgb(230, 230, 255);
+    
+}
+.productive-section h3{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.productive{
+    color: #4E47FF;
+    height: 97px;
+    width: 162px;
+    font-size: 80px;
+    margin: 0;
+}
+
+.productive-data{
+  display: flex;
+  gap: 159px;
+  justify-content: center;
+}
+
+.productive-ber {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.productive-ber p {
+  margin-top: 0px;
+  font-size: 16px;
+  color: #757575;
+  font-weight: 500;
+}
+
