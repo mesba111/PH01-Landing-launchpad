@@ -1,3 +1,11 @@
+
+.open-sans-all-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 .all-bg{
     background-color: #f8f9fc;
     padding-top: 100px;
@@ -44,7 +52,7 @@ nav{
     padding-bottom: 152px;
 }
 .head-title{
-    font-size: 30px;
+    font-size: 65px;
 }
 .nav-btn{
     margin-bottom: 152px;
@@ -75,19 +83,18 @@ nav{
     font-size: 42px;
 
 }
+
 .action-discription{
     color: #757575;
     margin-top: 23px;
     margin-bottom: 23px;
-    font-size: 24px;
     height: 60px;
     width: 517px;
-
 }
+
 .section-action-left{
     height: 328px;
     text-align:left
-    display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 517px;
@@ -195,10 +202,10 @@ nav{
   align-items: center;
   padding: 100px 150px;
   background-color: #f8f9fc;
-  gap: 115px;
+  gap: 250px;
 }
 .contact-left-title{
-    font-size: 97px;
+    font-size: 70px;
 }
 
 }
