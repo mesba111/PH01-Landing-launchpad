@@ -133,3 +133,53 @@ nav{
   font-weight: 500;
 }
 
+/* user review section */
+.users-say{
+    margin-top: 137px;
+}
+.user-say-title{
+    padding-top: 0px;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.user-say-container{
+  background-color:#f8f9fc;
+  width: 280px;         
+  padding: 20px;
+  border-radius: 12px;  
+   border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  
+}
+}
+.star-img{
+    display: flex;
+}
+.user-title{
+    margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.user-secend-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  
+}
+.user-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px 150px;
+}
+.user-name{
+    margin-bottom: 6px;
+}
